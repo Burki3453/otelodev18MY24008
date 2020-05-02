@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hakkimizda"
+    tools:context=".hakkimizda">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="228dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="16dp"
+        android:text="Ayder Resort Hotel'i Tanıyın"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="378dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="33dp"
+        android:text="Ayder Resort Hotel, 2015 yılında otel genelinde tamamlanan renovasyon ile, yep yeni yüzü ve profesyonel ekibi ile Ayder tatil konaklamanızda siz değerli konuklarına en kaliteli hizmet deneyimini yaşatmaya devam ediyor. Türkiye'de yayla turizminin başkenti olarak bilinen Rize'nin Çamlıhemşin ilçesine bağlı Ayder Yaylası'nda hizmet veren Ayder Resort Hotel, doğa ile iç içe tatil yapmak, bol oksijenli bir ortamda dinlenip, yenilenmek isteyenler için ideal konaklama alternatifleri sunmaktadır.  ​"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="378dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="40dp"
+        android:text="Ayder Resort Hotel bünyesinde, tek kişinin konaklayabileceği single odalardan 9 kişi kapasiteli konaklama olanağı sağlayan bağlantılı aile odalarına kadar geniş bir yelpazede sunduğu oda seçenekleri ile size ve sevdiklerinize konfor ve huzur dolu bir Ayder tatili vaat ediyor."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="374dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="69dp"
+        android:text="Ayder otel fiyatları açısından konuklarına, bütçelerine uygun farklı oda seçenekleri sunan Ayder Resort Hotel, yılın 12 ayı, 365 gün açık olup, her sezon farklı renklere bürünen Kaçkar Dağları'nın en huzurlu konumunda size kaliteli ve dinlendirici bir tatil olanağı sunmaktadır."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

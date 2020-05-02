@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ucretlendirme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/oda1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki Tek Yataklı Ekonomik Oda"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Ayder Yaylası Doğa Manzaralı iki ayrı yataklı ekonomik odalarımızda ister tek kişi ister iki kişi konforlu ve kaliteli bir konaklama deneyimini en uygun Ayder otel fiyatları ile Ayder Resort Hotel'de yaşayın."
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiyat Gecelik 475TL" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/oda2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Standart Double Oda"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:text="Ayder Yaylası ve doğa manzaralı standart double odalarımızda harika bir Ayder tatili, Ayder Resort Hotel'de sizi bekliyor." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiyat Gecelik 650TL" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/oda4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Super Double Oda"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Ayder Resort Hotel'in siz değerli konukları için sunduğu konforlu ve muhteşem tasarımlı, Ayder Yaylası manzarasına hakim suite odalarında şahane bir tatil için hemen rezervasyon yapın."
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiyat Gecelik 1000TL" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="330dp"
+            android:layout_height="132dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/oda3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Super 4 Kişilik Oda"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Ayder Yaylası'nda en güzel doğa manzarasına hakim iki ayrı odalı superior köşe suite odalarımızda kaliteli ve konforlu bir tatil için Ayder Resort Hotel ile hemen iletişime geçin."
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiyat Gecelik 1850TL" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
